@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/calculator.css" rel="stylesheet">
+  <script src="js/calculatorlucy.js"></script>
+  <title>Lucy's calculator</title>
+</head>
+<body>
+  <header class="name">Lucy's calculator</header>
+  <div>
+      <form>
+      <input type="button" id="display">
+        <br>
+          <input type="button" class="btn number" value="+" onclick="get(this.value);">
+          <input type="button" class="btn number" value="-" onclick="get(this.value);">
+          <input type="button" class="btn number" value="*" onclick="get(this.value);">
+          <input type="button" class="btn number" value="/" onclick="get(this.value);">
+          <br>
+          <input type="button" class="btn number" value="1" onclick="get(this.value)">
+          <input type="button" class="btn number" value="2" onclick="get(this.value)">
+          <input type="button" class="btn number" value="3" onclick="get(this.value)">
+          <br>
+          <input type="button" class="btn number" value="4" onclick="get(this.value)">
+          <input type="button" class="btn number" value="5" onclick="get(this.value)">
+          <input type="button" class="btn number" value="6" onclick="get(this.value)">
+          <br>
+          <input type="button" class="btn number" value="7" onclick="get(this.value)">
+          <input type="button" class="btn number" value="8" onclick="get(this.value)">
+          <input type="button" class="btn number" value="9" onclick="get(this.value)">
+          <br>
+          <input type="button" class="btn other" value="=" onclick="calculates()">
+          <input type="button" id="clear" class="btn other" value="C">
+      </form>
+  </div>
+
+</body>
+<foot>
+    <span>Thank you for using Lucy's calculator!</span>
+</foot>
+</html>

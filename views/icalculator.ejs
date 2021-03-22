@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/icalculator.css" rel="stylesheet">
+    <script src="js/icalculator.js"></script>
+    <title>iCalculator</title>
+</head>
+<body>
+<header class="name">iCalculator</header>
+<div class="container">
+    <form>
+        <input type="button" id="display">
+        <br>
+        <input type="button" class="btn other" id="clear" value="C" onclick="cleanNum();">
+        <input type="button" class="btn other" value="+/-" onclick="get(this.value);">
+        <input type="button" class="btn other" value="%" onclick="get(this.value);">
+        <input type="button" class="btn operator" id="orange" value="/" onclick="get(this.value);">
+        <br>
+        <input type="button" class="btn number" value="7" onclick="get(this.value)">
+        <input type="button" class="btn number" value="8" onclick="get(this.value)">
+        <input type="button" class="btn number" value="9" onclick="get(this.value)">
+        <input type="button" class="btn operator" id="orange" value="*" onclick="get(this.value)">
+        <br>
+        <input type="button" class="btn number" value="4" onclick="get(this.value)">
+        <input type="button" class="btn number" value="5" onclick="get(this.value)">
+        <input type="button" class="btn number" value="6" onclick="get(this.value)">
+        <input type="button" class="btn operator" id="orange" value="-" onclick="get(this.value)">
+        <br>
+        <input type="button" class="btn number" value="1" onclick="get(this.value)">
+        <input type="button" class="btn number" value="2" onclick="get(this.value)">
+        <input type="button" class="btn number" value="3" onclick="get(this.value)">
+        <input type="button" class="btn operator" id="orange" value="+" onclick="get(this.value)">
+        <br>
+        <input type="button" class="btn number" id="zero" value="0" onclick="get(this.value)">
+        <input type="button" class="btn other" value="." onclick="get(this.value)">
+        <input type="button" class="btn operator" id="orange" value="=" onclick="calculates()">
+    </form>
+</div>
+
+</body>
+<foot>
+    <span>Thank you for using Lucy's calculator!</span>
+</foot>
+</html>

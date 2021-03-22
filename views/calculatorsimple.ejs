@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <link href="css/calculatorsimple.css" rel="stylesheet">
+    <script src="js/calculatorsimple.js"></script>
+</head>
+<body>
+<table>
+    <tr id="row1">
+        <td id="header">Simple Calculator</td>
+    </tr>
+    <tr id="row2">
+        <th>Input1</th>
+        <th>operator</th>
+        <th>Input2</th>
+        <th>equal</th>
+        <th>output</th>
+    </tr>
+    <tr id="row3">
+    <td><input type="number" id="a"></td>
+    <td><form>
+            <select id="operator">
+                <option id="op">+</option>
+                <option id="op">-</option>
+                <option id="op">*</option>
+                <option id="op">/</option>
+            </select>
+        </form>
+    </td>
+    <td><input type="number" id="b"></td>
+    <td><input type="button" id="equal" value="=" onclick="operateFunc()"></td>
+    <td><input type="number" id="c"></td>
+    </tr>
+</table>
+</body>
+</html>

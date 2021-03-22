@@ -1,0 +1,34 @@
+#row1 {
+    background-color: green;
+    opacity: 1;
+}
+#row2 {
+    background-color: green;
+    opacity: 0.5;
+}
+#row3{
+    background-color: green;
+    opacity: 0.2;
+}
+body{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+table{
+    height: 400px;
+    width: 700px;
+}
+#operator {
+    height: 50px;
+    width: 50px;
+}
+#op {
+    font-family: AppleSystemUIFont;
+    font-size: medium;
+}
+#header {
+    font-family: "Andale Mono";
+    fong-size: 80px;
+}
